@@ -1,0 +1,53 @@
+.footer-page{
+    background-color:rgb(238, 199, 101);
+    color:black;
+    padding: 15px 0;
+    display: grid;
+    text-align: center;
+    font-size:large;
+    width: 100%;
+ }
+ .footer-page a :hover{
+    color: grey;
+ }
+ .book-cont{
+  height: 72vh;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.book-cont h2{
+  text-align: center;
+  color: navy;
+}
+
+.book-cont input{
+  align-items: center;
+  width: 55%;
+  margin-bottom: 1.5rem;
+  border: 2px solid rgb(196, 195, 195);
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.4rem;
+}
+.label{
+  display:block;
+}
+.book-cont button {
+  width: 56%;
+  padding: 0.5rem;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-cont button:hover {
+  background-color: rgb(3, 177, 246);
+}
+ 
