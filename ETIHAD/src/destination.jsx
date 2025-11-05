@@ -7,42 +7,42 @@ const initialDestinations = [
     name: " Goa",
     type: "Beach",
     country: " India",
-    image: "../src/assets/goa.jpeg"
+    image: "https://media.istockphoto.com/id/1157048446/photo/aerial-shot-of-the-beach-from-above-showing-sea-beach-mountain-and-a-coconut-plantation-goa.jpg?s=1024x1024&w=is&k=20&c=Fo51rHxVKWpxq3kzEnGdfbEIm42dHcree8Hyzo2Zj9A="
   },
   {
     id: 2,
     name: " Manali",
     type: "Mountain",
     country: " India",
-    image: "../src/assets/manali.jpeg"
+    image: "https://media.istockphoto.com/id/1804577674/photo/amazing-early-morning-view-of-a-small-colorful-village-below-the-mountain-and-cloudy-sky-at.jpg?s=1024x1024&w=is&k=20&c=aO7DYN-MJMo8Iw_RjOyIa0U52GEwbC7vemuFJ2Df6pM="
   },
   {
     id: 3,
     name: "Paris",
     type: "City",
     country: " France",
-    image: "../src/assets/france.jpg"
+    image: "https://media.istockphoto.com/id/1127768734/photo/seine-in-paris.jpg?s=1024x1024&w=is&k=20&c=k0jF0fBzGK0nSfBtUwd47Lumv6B-bZ62AlUYtP3Lztc="
   },
   {
     id: 4,
     name: "Bali",
     type: "Beach",
     country: " Indonesia",
-    image: "../src/assets/bali.jpeg"
+    image: "https://images.pexels.com/photos/2474687/pexels-photo-2474687.jpeg"
   },
   {
     id: 5,
     name: "Swiss Alps",
     type: "Mountain",
     country: " Switzerland",
-    image: "../src/assets/swissalps.jpeg"
+    image: "https://images.pexels.com/photos/30929210/pexels-photo-30929210.jpeg"
   },
   {
     id: 6,
     name: "Tokyo",
     type: "City",
     country: " Japan",
-    image: "../src/assets/tokyo.jpeg"
+    image: "https://media.istockphoto.com/id/912274822/photo/mt-fuji-and-tokyo-skyline.jpg?s=1024x1024&w=is&k=20&c=h1FIoVs2nU2v9sdJg6Y_Se7asJrb1odV-RoD36BYaIU="
   }
 ];
 const[filterType, setFilterType] = useState('All');
